@@ -225,6 +225,9 @@ var styles = StyleSheet.create({
   nopeText: {
     fontSize: 16,
     color: 'red',
+  },
+  card:{
+    alignSelf: 'stretch',
   }
 });
 
