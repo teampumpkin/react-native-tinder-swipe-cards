@@ -20,6 +20,12 @@ class SwipeCards extends Component {
     }
   }
 
+  resetCards(){
+    this.setState({
+      card: this.props.cards[0],
+    });
+  }
+
   _goToNextCard() {
     let currentCardIdx = this.props.cards.indexOf(this.state.card);
     let newIdx = currentCardIdx + 1;
